@@ -122,3 +122,28 @@ footer {
   color: #d0021b;
   text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  .theme-button {
+    font-size: 13px;
+  }
+
+  .dodgers-homepage {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+}
